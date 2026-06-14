@@ -1,10 +1,8 @@
-```ruby
 Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   namespace :api do
     namespace :v1 do
-
       get "search", to: "search#index"
 
       resources :users, only: [:create, :show]
@@ -26,8 +24,6 @@ Rails.application.routes.draw do
           get :series
         end
       end
-
     end
   end
 end
-```
