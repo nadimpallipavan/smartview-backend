@@ -1,0 +1,11 @@
+development:
+  cloud_name: dv8af8wcd
+  api_key: 835395637121954
+  api_secret: sUV2weiUheHUnGLaBuZXZ3fT1Tw
+  secure: true
+
+production:
+  cloud_name: dv8af8wcd
+  api_key: 835395637121954
+  api_secret: sUV2weiUheHUnGLaBuZXZ3fT1Tw
+  secure: true
